@@ -37,9 +37,9 @@ body :-ms-input-placeholder {
   font-weight: 300;
 }
 .wrapper {
-  background: #79a8ae;
-  background: -webkit-linear-gradient(top left, #79a8ae 0%, #79a8ae 100%);
-  background: linear-gradient(to bottom right, #79a8ae 0%, #79a8ae 100%);
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
   background-color:rgba(255,255,255,0.9);
   position: absolute;
   top:0;
@@ -64,15 +64,16 @@ body :-ms-input-placeholder {
   text-align: center;
 }
 .container h1 {
-  font-size: 40px;
+  font-size: 50px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transition-timing-function: ease-in-put;
           transition-timing-function: ease-in-put;
   font-weight: 200;
+  margin-bottom: 8px;
 }
 form {
-  padding: 20px 0;
+  padding: 30px;
   position: relative;
   z-index: 2;
 }
@@ -86,7 +87,7 @@ form input {
   width: 250px;
   border-radius: 3px;
   padding: 10px 15px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 8px auto;
   display: block;
   text-align: center;
   font-family: "Microsoft YaHei";
@@ -104,26 +105,42 @@ form input:focus {
   width: 300px;
   color: #79A8AE;
 }
-form button {
+
+$fuschia: #ff0081;
+$button-bg: $fuschia;
+$button-text-color: #fff;
+$baby-blue: #f8faff;
+
+body{
+  font-size: 16px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
+  background-color: $baby-blue;
+}
+
+.bubbly-button{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  outline: 0;
-  background-color: white;
-  font-family: "Microsoft YaHei";
-  border: 0;
-  padding: 10px 15px;
-  color: #79A8AE;
-  border-radius: 3px;
-  width: 250px;
+  appearance: none;
+  background-color: $button-bg;
+  color: $button-text-color;
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
-  font-size: 18px;
-  -webkit-transition-duration: 0.25s;
-          transition-duration: 0.25s;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
 }
-form button:hover {
-  background-color: #f5f7f9;
+
+.bubbly-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }
+
 .bg-bubbles {
   position: absolute;
   top: 0;

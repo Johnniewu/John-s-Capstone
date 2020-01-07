@@ -14,13 +14,22 @@ body {
 }
 
 /* ============================================== Candle
-*/
+
 .bg {
   width: 100%;
   background: #79a8ae;
   background: -webkit-linear-gradient(top left, #79a8ae 0%, #79a8ae 100%);
   background: linear-gradient(to bottom right, #79a8ae 0%, #79a8ae 100%);
 }
+*/
+
+.bg {
+  width: 100%;
+   background: #ee9ca7;
+  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+}
+
 .velas {
   background: #ffffff;
   border-radius: 10px;
@@ -442,7 +451,7 @@ body {
 }
 .button-style1 {
 	position:absolute;
-	left:43%;
+	left:20%;
 	animation:btn1 15s;
 }
 .button-style2 {
@@ -461,7 +470,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:43.5%;
+		left:20%;
 	}
 }
 @-webkit-keyframes btn1 {
@@ -475,7 +484,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:43.5%;
+		left:20%;
 	}
 }
 @keyframes btn2 {
