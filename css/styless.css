@@ -23,12 +23,14 @@ body {
 }
 */
 
+
 .bg {
   width: 100%;
-   background: #ee9ca7;
-  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
-  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+   background: #000000;
+  background: -webkit-linear-gradient(top left, #000000 0%, #000000 100%);
+  background: linear-gradient(to bottom right, #000000 0%, #000000 100%);
 }
+
 
 .velas {
   background: #ffffff;
@@ -448,6 +450,7 @@ body {
 	top:70%;
 	opacity:1;
 	z-index:100;
+
 }
 .button-style1 {
 	position:absolute;
@@ -458,6 +461,7 @@ body {
 	position:absolute;
 	left:68%;
 	animation:btn2 15s;
+
 }
 @keyframes btn1 {
 	0% {
@@ -535,10 +539,13 @@ body {
 .link2 {
 	cursor:not-allowed;
 }
+
+
 .bt1,.bt2 {
 	position:relative;
 	top:22%;
 	vertical-align:middle;
+
 }
 
 a.lk1:hover {

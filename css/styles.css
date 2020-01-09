@@ -36,11 +36,8 @@ body :-ms-input-placeholder {
   color: white;
   font-weight: 300;
 }
+
 .wrapper {
-  background: #ee9ca7;
-  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
-  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
-  background-color:rgba(255,255,255,0.9);
   position: absolute;
   top:0;
   left: 0;
@@ -55,6 +52,7 @@ body :-ms-input-placeholder {
       -ms-transform: translateY(85px);
           transform: translateY(85px);
 }
+
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -72,6 +70,7 @@ body :-ms-input-placeholder {
   font-weight: 200;
   margin-bottom: 8px;
 }
+
 form {
   padding: 30px;
   position: relative;
@@ -116,6 +115,7 @@ body{
   font-family: 'Helvetica', 'Arial', sans-serif;
   text-align: center;
   background-color: $baby-blue;
+
 }
 
 .bubbly-button{
@@ -251,3 +251,90 @@ body{
             transform: translateY(-900px) rotate(600deg);
   }
 }
+
+    #gradient-rotate {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    #trianglify-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+
+    #color-stop-1 {
+      -webkit-animation: change-color-1 12s ease-in-out infinite alternate;
+      animation: change-color-1 12s ease-in-out infinite alternate
+    }
+
+    #color-stop-2 {
+      -webkit-animation: change-color-2 12s ease-in-out infinite alternate;
+      animation: change-color-2 12s ease-in-out infinite alternate
+    }
+
+    #color-stop-3 {
+      -webkit-animation: change-color-3 12s ease-in-out infinite alternate;
+      animation: change-color-3 12s ease-in-out infinite alternate
+    }
+
+    @keyframes change-color-1 {
+      0% {
+        stop-color: #22C8F6
+      }
+
+      25% {
+        stop-color: #ff0
+      }
+
+      50% {
+        stop-color: #00ffcb
+      }
+
+      75% {
+        stop-color: #70ff00
+      }
+    }
+    @keyframes change-color-2 {
+      0% {
+        stop-color: #20C498
+      }
+
+      25% {
+        stop-color: #ff00ad
+      }
+
+      350% {
+        stop-color: #d480ff
+      }
+
+      75% {
+        stop-color: #ff9200
+      }
+    }
+    @keyframes change-color-3 {
+      0% {
+        stop-color: #189932
+      }
+
+      25% {
+        stop-color: #c300cb
+      }
+
+      50% {
+        stop-color: #5600d4
+      }
+
+      75% {
+        stop-color: #ff46dc
+      }
+    }

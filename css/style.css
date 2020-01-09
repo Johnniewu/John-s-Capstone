@@ -8,9 +8,9 @@
 }
 
 .bgcolor {
-	background: #79a8ae;
-    background: -webkit-linear-gradient(top left, #79a8ae 0%, #79a8ae 100%);
-    background: linear-gradient(to bottom right, #79a8ae 0%, #79a8ae 100%);
+	background: #ee9ca7;
+  background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+  background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
     opacity: 0.9;
 }
 .bg-bubbles {
@@ -754,7 +754,7 @@
 	position: absolute;
 	padding-top: 20px;
 	left: 5%;
-	top: 12%;
+	top: 9%;
 	opacity: 0;
 	transition: all 1s;
 }
@@ -837,7 +837,7 @@
 	position: absolute;
 	margin-left:30px;
 	margin-right:30px;
-	top: 12%;
+	top: 0%;
 	opacity: 1;
 	transition: all 13s;
 	height:0;
@@ -1315,8 +1315,8 @@
 
 /* 盒子 */
 .ly-box32 {
-	width: 40%;
-	height: 400px;
+	width: 30%;
+	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
